@@ -1,6 +1,9 @@
 package com.n1cholas.dao;
 
 import com.n1cholas.pojo.Product;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface ProductMapper {
     int deleteByPrimaryKey(Integer id);
@@ -14,4 +17,11 @@ public interface ProductMapper {
     int updateByPrimaryKeySelective(Product record);
 
     int updateByPrimaryKey(Product record);
+
+    List<Product> selectProductList();
+
+    List<Product> selectProductByNameAndId(@Param("productName") String productName, @Param("productId") Integer productId);
+
+    List<Product> selectProductByNameAndCategoryId(@Param("productName") String productName, @Param("categoryIdList")  List<Integer> categoryIdList);
 }
+
