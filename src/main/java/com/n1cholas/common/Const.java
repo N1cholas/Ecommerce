@@ -72,6 +72,15 @@ public class Const {
         public int getCode() {
             return code;
         }
+
+        public static OrderStatus codeOf(int code) {
+            for (OrderStatus orderStatus : values()) {
+                if (orderStatus.getCode() == code) {
+                    return orderStatus;
+                }
+            }
+            throw new RuntimeException("没有该枚举");
+        }
     }
 
     public interface AlipayCallback {
@@ -99,6 +108,35 @@ public class Const {
 
         public int getCode() {
             return code;
+        }
+    }
+
+    public enum PaymentType {
+        ONLINE_PAY(1, "在线支付");
+
+        private int code;
+        private String value;
+
+        PaymentType(int code, String value) {
+            this.code = code;
+            this.value = value;
+        }
+
+        public String getValue() {
+            return value;
+        }
+
+        public int getCode() {
+            return code;
+        }
+
+        public static PaymentType codeOf(int code) {
+            for (PaymentType paymentType : values()) {
+                if (paymentType.getCode() == code) {
+                    return paymentType;
+                }
+            }
+            throw new RuntimeException("没有该枚举");
         }
     }
 }
