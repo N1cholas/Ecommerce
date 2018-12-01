@@ -8,7 +8,13 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>Hello World!</h2>
+    <h2>test deploy</h2>
+    <form action="/user/login.do" method="post" enctype="multipart/form-data">
+        <input type="text" placeholder="username">
+        <input type="password" placeholder="password">
+        <input type="submit">
+    </form>
+
     <h3>springmvc</h3>
     <form action="/manage/product/upload.do" method="post" enctype="multipart/form-data">
         <input type="file" name="file">
