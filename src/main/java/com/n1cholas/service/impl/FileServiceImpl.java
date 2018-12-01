@@ -19,6 +19,9 @@ public class FileServiceImpl implements IFileService {
 
     //todo 没有判断file是否存在
     public String upload(MultipartFile file, String path) {
+        if (file == null) {
+            return "没有文件";
+        }
         String filename = file.getOriginalFilename();
         //扩展名
         String fileExtensionName = filename.substring(filename.lastIndexOf(".")+1);

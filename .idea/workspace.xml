@@ -8,7 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="73dae339-84cd-4b56-b32c-88fda8cf28fe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mmall.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mmall.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/n1cholas/service/impl/FileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/n1cholas/service/impl/FileServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/n1cholas/util/FTPUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/n1cholas/util/FTPUtil.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -77,7 +78,7 @@
           <entry key="gitignore" value="1" />
           <entry key="handlers" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="275" />
+          <entry key="java" value="280" />
           <entry key="json" value="2" />
           <entry key="jsp" value="11" />
           <entry key="md" value="1" />
@@ -95,7 +96,7 @@
         <counts>
           <entry key="CLASS" value="11" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="275" />
+          <entry key="JAVA" value="280" />
           <entry key="JSON" value="2" />
           <entry key="JSP" value="11" />
           <entry key="Markdown" value="1" />
@@ -109,21 +110,21 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="270" />
-          <entry key="java" value="31007" />
+          <entry key="java" value="31073" />
           <entry key="jsp" value="268" />
           <entry key="md" value="40" />
-          <entry key="properties" value="265" />
+          <entry key="properties" value="276" />
           <entry key="txt" value="10" />
           <entry key="xml" value="3050" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="31007" />
+          <entry key="JAVA" value="31073" />
           <entry key="JSP" value="268" />
           <entry key="Markdown" value="40" />
           <entry key="PLAIN_TEXT" value="280" />
-          <entry key="Properties" value="265" />
+          <entry key="Properties" value="276" />
           <entry key="SQL" value="190" />
           <entry key="XML" value="2860" />
         </counts>
@@ -158,11 +159,56 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mmall.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+            <state relative-caret-position="54">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/n1cholas/util/FTPUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="71" column="53" selection-start-line="71" selection-start-column="49" selection-end-line="71" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/n1cholas/controller/portal/ProductController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/n1cholas/controller/backend/ProductManageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="145" column="51" selection-start-line="145" selection-start-column="51" selection-end-line="145" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/n1cholas/service/IFileService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/n1cholas/service/impl/FileServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -220,7 +266,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/n1cholas/service/IFileService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/n1cholas/service/impl/FileServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/n1cholas/service/ICategoryService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/n1cholas/service/impl/CategoryServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/n1cholas/service/impl/ProductServiceImpl.java" />
@@ -247,7 +292,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/alipay/demo/trade/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/n1cholas/controller/backend/ProductManageController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/n1cholas/util/FTPUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/n1cholas/dao/CartMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/n1cholas/vo/OrderItemVo.java" />
@@ -270,6 +314,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$USER_HOME$/Documents/MobaXterm/slash/RemoteFiles/394040_7_4/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/mmall.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/n1cholas/util/FTPUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/n1cholas/service/impl/FileServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -324,7 +370,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
@@ -479,6 +525,65 @@
               <item name="n1cholas" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="n1cholas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="n1cholas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="n1cholas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="n1cholas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="n1cholas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="n1cholas" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="n1cholas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="n1cholas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="n1cholas" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="n1cholas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="n1cholas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="n1cholas" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="portal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="n1cholas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="n1cholas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="n1cholas" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="n1cholas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="n1cholas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -507,7 +612,7 @@
     <property name="SearchEverywhereHistoryKey" value="Const&#9;FILE&#9;file://C:/Users/N1cholas/IdeaProjects/n1cholas/src/main/java/com/n1cholas/common/Const.java&#10;orderI&#9;FILE&#9;file://C:/Users/N1cholas/IdeaProjects/n1cholas/src/main/java/com/n1cholas/dao/OrderItemMapper.java&#10;CartMa&#9;PSI&#9;JAVA://com.n1cholas.dao.CartMapper&#10;OrderMapper&#9;FILE&#9;file://C:/Users/N1cholas/IdeaProjects/n1cholas/src/main/java/com/n1cholas/dao/OrderMapper.java&#10;oim&#9;PSI&#9;JAVA://com.n1cholas.dao.OrderItemMapper&#10;img&#9;null&#9;null&#10;producm&#9;FILE&#9;file://C:/Users/N1cholas/IdeaProjects/n1cholas/src/main/java/com/n1cholas/dao/ProductMapper.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543652442727" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543656325188" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/alipay-trade-sdk-20161215.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -819,7 +924,7 @@
       <workItem from="1543208874263" duration="17394000" />
       <workItem from="1543292257426" duration="6076000" />
       <workItem from="1543325830804" duration="1330000" />
-      <workItem from="1543632420270" duration="5946000" />
+      <workItem from="1543632420270" duration="7201000" />
     </task>
     <servers />
   </component>
@@ -850,7 +955,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201581000" />
+    <option name="totallyTimeSpent" value="202836000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -865,7 +970,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.23726542" />
       <window_info id="Structure" order="1" sideWeight="0.50212765" side_tool="true" weight="0.22855228" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -933,39 +1038,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alipay/demo/trade/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2293">
-          <caret line="99" column="29" lean-forward="true" selection-start-line="99" selection-start-column="29" selection-end-line="99" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5643">
-          <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/alipay-sdk-java-3.3.0-source.jar!/com/alipay/api/internal/util/AlipaySignature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="260" lean-forward="true" selection-start-line="260" selection-end-line="260" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/java电商讲师源代码/v0z6xp/src/main/java/com/mmall/util/FTPUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/n1cholas/util/FTPUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="42" column="35" lean-forward="true" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/java电商讲师源代码/v0z6xp/src/main/resources/mappers/OrderMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
@@ -1252,6 +1324,30 @@
         <state relative-caret-position="-162" />
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/java电商讲师源代码/v0z6xp/src/main/resources/mmall.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/n1cholas/controller/portal/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/n1cholas/util/FTPUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="71" column="53" selection-start-line="71" selection-start-column="49" selection-end-line="71" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mmall.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/zfbinfo.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -1266,13 +1362,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/java电商讲师源代码/v0z6xp/src/main/resources/mmall.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mmall.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/n1cholas/controller/backend/ProductManageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+        <state relative-caret-position="324">
+          <caret line="145" column="51" selection-start-line="145" selection-start-column="51" selection-end-line="145" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/n1cholas/service/IFileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/n1cholas/service/impl/FileServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
         </state>
       </provider>
     </entry>

@@ -42,7 +42,6 @@ public class FTPUtil {
         boolean uploaded = true;
         FileInputStream fis = null;
         //连接FTP服务器
-        //todo 失败登录没有处理
         if (connectServer(this.ip, this.port, this.user, this.pwd)) {
             try {
                 ftpClient.changeWorkingDirectory(remotePath);
@@ -63,6 +62,8 @@ public class FTPUtil {
                 fis.close();
                 ftpClient.disconnect();
             }
+        } else {
+            uploaded = false;
         }
         //todo 返回值没有处理
         return uploaded;
