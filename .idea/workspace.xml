@@ -8,7 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="73dae339-84cd-4b56-b32c-88fda8cf28fe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mmall.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mmall.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -79,10 +79,10 @@
           <entry key="iml" value="1" />
           <entry key="java" value="275" />
           <entry key="json" value="2" />
-          <entry key="jsp" value="10" />
+          <entry key="jsp" value="11" />
           <entry key="md" value="1" />
           <entry key="policy" value="1" />
-          <entry key="properties" value="35" />
+          <entry key="properties" value="36" />
           <entry key="pub" value="1" />
           <entry key="schemas" value="1" />
           <entry key="sql" value="2" />
@@ -97,10 +97,10 @@
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="275" />
           <entry key="JSON" value="2" />
-          <entry key="JSP" value="10" />
+          <entry key="JSP" value="11" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Properties" value="37" />
+          <entry key="Properties" value="38" />
           <entry key="Scratch" value="2" />
           <entry key="XML" value="102" />
           <entry key="spring.factories" value="1" />
@@ -112,7 +112,7 @@
           <entry key="java" value="31007" />
           <entry key="jsp" value="268" />
           <entry key="md" value="40" />
-          <entry key="properties" value="263" />
+          <entry key="properties" value="265" />
           <entry key="txt" value="10" />
           <entry key="xml" value="3050" />
         </counts>
@@ -123,7 +123,7 @@
           <entry key="JSP" value="268" />
           <entry key="Markdown" value="40" />
           <entry key="PLAIN_TEXT" value="280" />
-          <entry key="Properties" value="263" />
+          <entry key="Properties" value="265" />
           <entry key="SQL" value="190" />
           <entry key="XML" value="2860" />
         </counts>
@@ -149,15 +149,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/Documents/MobaXterm/slash/RemoteFiles/394040_7_4/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/zfbinfo.properties">
           <provider selected="true" editor-type-id="text-editor">
@@ -167,11 +158,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mmall.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="81">
+              <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -276,9 +267,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/datasource.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/mmall.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$USER_HOME$/Documents/MobaXterm/slash/RemoteFiles/394040_7_4/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/mmall.properties" />
       </list>
     </option>
   </component>
@@ -516,7 +507,7 @@
     <property name="SearchEverywhereHistoryKey" value="Const&#9;FILE&#9;file://C:/Users/N1cholas/IdeaProjects/n1cholas/src/main/java/com/n1cholas/common/Const.java&#10;orderI&#9;FILE&#9;file://C:/Users/N1cholas/IdeaProjects/n1cholas/src/main/java/com/n1cholas/dao/OrderItemMapper.java&#10;CartMa&#9;PSI&#9;JAVA://com.n1cholas.dao.CartMapper&#10;OrderMapper&#9;FILE&#9;file://C:/Users/N1cholas/IdeaProjects/n1cholas/src/main/java/com/n1cholas/dao/OrderMapper.java&#10;oim&#9;PSI&#9;JAVA://com.n1cholas.dao.OrderItemMapper&#10;img&#9;null&#9;null&#10;producm&#9;FILE&#9;file://C:/Users/N1cholas/IdeaProjects/n1cholas/src/main/java/com/n1cholas/dao/ProductMapper.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543652107824" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543652442727" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/alipay-trade-sdk-20161215.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -828,7 +819,7 @@
       <workItem from="1543208874263" duration="17394000" />
       <workItem from="1543292257426" duration="6076000" />
       <workItem from="1543325830804" duration="1330000" />
-      <workItem from="1543632420270" duration="5608000" />
+      <workItem from="1543632420270" duration="5946000" />
     </task>
     <servers />
   </component>
@@ -859,7 +850,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201243000" />
+    <option name="totallyTimeSpent" value="201581000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -892,7 +883,7 @@
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32907802" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32907802" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.38439715" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.38439715" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5020107" side_tool="true" weight="0.66950357" />
       <window_info anchor="bottom" id="Application Servers" order="12" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32765958" />
@@ -942,20 +933,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/alipay-trade-sdk-20161215-source.jar!/com/alipay/demo/trade/model/GoodsDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/alipay-trade-sdk-20161215-source.jar!/com/alipay/demo/trade/service/AlipayTradeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alipay/demo/trade/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2293">
@@ -1256,24 +1233,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mmall.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="128">
+          <caret line="12" selection-start-line="12" selection-end-line="14" selection-end-column="29" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/MobaXterm/slash/RemoteFiles/394040_7_4/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/MobaXterm/slash/RemoteFiles/394040_7_5/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/zfbinfo.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="12" selection-start-line="12" selection-end-line="14" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1284,10 +1266,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/MobaXterm/slash/RemoteFiles/394040_7_4/index.jsp">
+    <entry file="file://$USER_HOME$/Desktop/java电商讲师源代码/v0z6xp/src/main/resources/mmall.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mmall.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        <state relative-caret-position="81">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
         </state>
       </provider>
     </entry>
