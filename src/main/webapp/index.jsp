@@ -10,8 +10,8 @@
 <body>
     <h2>test deploy</h2>
     <form action="/user/login.do" method="post" enctype="multipart/form-data">
-        <input type="text" placeholder="username">
-        <input type="password" placeholder="password">
+        <input name="username" type="text" placeholder="username">
+        <input name="password" type="password" placeholder="password">
         <input type="submit">
     </form>
 
