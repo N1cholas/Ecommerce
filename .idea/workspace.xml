@@ -7,30 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73dae339-84cd-4b56-b32c-88fda8cf28fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/n1cholas/common/RedisPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/n1cholas/util/CookieUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/n1cholas/util/JsonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/n1cholas/util/RedisPoolUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources.dev/datasource.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources.dev/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources.dev/mmall.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources.dev/zfbinfo.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources.prod/datasource.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources.prod/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources.prod/mmall.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources.prod/zfbinfo.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/n1cholas/common/Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/n1cholas/common/Const.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/n1cholas/controller/portal/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/n1cholas/controller/portal/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/n1cholas/service/impl/FileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/n1cholas/service/impl/FileServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/n1cholas/vo/CartVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/n1cholas/vo/CartVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/datasource.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources.beta/datasource.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources.beta/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mmall.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources.beta/mmall.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/zfbinfo.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources.beta/zfbinfo.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/n1cholas/util/CookieUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/n1cholas/util/CookieUtil.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -105,7 +82,7 @@
           <entry key="gitignore" value="1" />
           <entry key="handlers" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="307" />
+          <entry key="java" value="309" />
           <entry key="json" value="2" />
           <entry key="jsp" value="13" />
           <entry key="md" value="1" />
@@ -124,7 +101,7 @@
           <entry key="CLASS" value="15" />
           <entry key="HOCON" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="307" />
+          <entry key="JAVA" value="309" />
           <entry key="JSON" value="2" />
           <entry key="JSP" value="13" />
           <entry key="Markdown" value="1" />
@@ -138,7 +115,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="270" />
-          <entry key="java" value="34846" />
+          <entry key="java" value="34858" />
           <entry key="jsp" value="303" />
           <entry key="md" value="40" />
           <entry key="properties" value="593" />
@@ -148,7 +125,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="34846" />
+          <entry key="JAVA" value="34858" />
           <entry key="JSP" value="303" />
           <entry key="Markdown" value="40" />
           <entry key="PLAIN_TEXT" value="280" />
@@ -172,8 +149,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/n1cholas/util/CookieUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+            <state relative-caret-position="110">
+              <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -358,7 +335,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="945" />
     <option name="y" value="110" />
     <option name="width" value="980" />
@@ -914,7 +891,7 @@
       <workItem from="1544262896363" duration="595000" />
       <workItem from="1544853741997" duration="786000" />
       <workItem from="1544939843502" duration="16906000" />
-      <workItem from="1545016397860" duration="1910000" />
+      <workItem from="1545016397860" duration="3212000" />
     </task>
     <servers />
   </component>
@@ -945,7 +922,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246047000" />
+    <option name="totallyTimeSpent" value="247349000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -960,7 +937,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.43120566" visible="true" weight="0.27345845" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.43120566" visible="true" weight="0.27345845" />
       <window_info id="Structure" order="1" sideWeight="0.5687943" side_tool="true" weight="0.27010724" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -971,14 +948,14 @@
       <window_info anchor="bottom" id="Problems" order="0" weight="0.34468085" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49798927" visible="true" weight="0.670922" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49798927" weight="0.670922" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.71205676" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32907802" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32907802" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33617023" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33049646" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5020107" side_tool="true" weight="0.66950357" />
       <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32765958" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32765958" />
@@ -1040,13 +1017,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/n1cholas/util/FTPUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/n1cholas/common/ServerResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1329,6 +1299,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_mmallv4.0.zip/src/main/java/com/mmall/util/CookieUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-675">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/n1cholas/controller/portal/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -1338,8 +1315,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/n1cholas/util/CookieUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+        <state relative-caret-position="110">
+          <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
