@@ -185,7 +185,7 @@
 
     <select id="checkEmail" resultType="int" parameterType="String">
         select count(1) from mmall_user
-        where email = #{email}
+        where username = #{username}
     </select>
 
     <select id="selectLogin" resultMap="BaseResultMap" parameterType="map">

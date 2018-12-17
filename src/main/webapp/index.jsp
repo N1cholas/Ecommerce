@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>test deploy</h2>
+    <h2>test localhost deploy load balance</h2>
     <form action="/user/login.do" method="post" enctype="multipart/form-data">
         <input name="username" type="text" placeholder="username">
         <input name="password" type="password" placeholder="password">

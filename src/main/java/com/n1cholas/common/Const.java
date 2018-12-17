@@ -11,6 +11,10 @@ public class Const {
 
     public static final String USERNAME = "username";
 
+    public interface RedisCacheExtime {
+        int REDIS_SESSION_EXTIME = 60 * 30;//30分钟
+    }
+
     public interface ProductOrderBy {
         Set<String> PRICE_ASC_ESC = Sets.newHashSet("price_desc", "price_asc");
     }
