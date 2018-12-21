@@ -82,13 +82,19 @@ public class UserController {
 
     /**
      * 获取用户对象
-     * @param session 用户session
      * @return 用户对象
      */
     @RequestMapping(value = "get_user_object.do", method = RequestMethod.POST)
     @ResponseBody
-    public ServerResponse<User> getUserObject(HttpSession session) {
-        User user = (User) session.getAttribute(Const.CURRENT_USER);
+    public ServerResponse<User> getUserObject(HttpServletRequest httpServletRequest) {
+        String loginToken = CookieUtil.readLoginToken(httpServletRequest);
+        if (StringUtils.isEmpty(loginToken)) {
+            return ServerResponse.createByErrorMessage("用户未登录");
+        }
+
+        String userJsonStr = RedisPoolUtil.get(loginToken);
+        User user = JsonUtil.string2Obj(userJsonStr, User.class);
+
         if (user == null) {
             return ServerResponse.createByErrorCodeMessage(ResponseCode.NEED_LOGIN.getCode(), "用户未登陆");
         }
@@ -134,15 +140,21 @@ public class UserController {
 
     /**
      * 登录用户重置密码
-     * @param session 用户信息
      * @param oldPwd 旧密码
      * @param newPwd 新密码
      * @return 响应结果
      */
     @RequestMapping(value = "reset_password_by_login.do", method = RequestMethod.POST)
     @ResponseBody
-    public ServerResponse<String> resetPasswordByLogin(HttpSession session, String oldPwd, String newPwd) {
-        User user = (User) session.getAttribute(Const.CURRENT_USER);
+    public ServerResponse<String> resetPasswordByLogin(HttpServletRequest httpServletRequest, String oldPwd, String newPwd) {
+        String loginToken = CookieUtil.readLoginToken(httpServletRequest);
+        if (StringUtils.isEmpty(loginToken)) {
+            return ServerResponse.createByErrorMessage("用户未登录");
+        }
+
+        String userJsonStr = RedisPoolUtil.get(loginToken);
+        User user = JsonUtil.string2Obj(userJsonStr, User.class);
+
         if (user == null) {
             return ServerResponse.createByErrorCodeMessage(ResponseCode.NEED_LOGIN.getCode(), "用户未登陆");
         }
@@ -151,14 +163,20 @@ public class UserController {
 
     /**
      * 更新用户信息
-     * @param session 用户信息
      * @param user 用户对象
      * @return 响应结果
      */
     @RequestMapping(value = "update_user_info.do", method = RequestMethod.POST)
     @ResponseBody
-    public ServerResponse<User> updateUserInfo(HttpSession session, User user) {
-        User currentUser = (User) session.getAttribute(Const.CURRENT_USER);
+    public ServerResponse<User> updateUserInfo(HttpServletRequest httpServletRequest, User user) {
+        String loginToken = CookieUtil.readLoginToken(httpServletRequest);
+        if (StringUtils.isEmpty(loginToken)) {
+            return ServerResponse.createByErrorMessage("用户未登录");
+        }
+
+        String userJsonStr = RedisPoolUtil.get(loginToken);
+        User currentUser = JsonUtil.string2Obj(userJsonStr, User.class);
+
         if (currentUser == null) {
             return ServerResponse.createByErrorCodeMessage(ResponseCode.NEED_LOGIN.getCode(), "用户未登陆");
         }
@@ -169,7 +187,7 @@ public class UserController {
         ServerResponse<User> response = iUserService.updateUserInfo(user);
         if (response.isSuccess()) {
             response.getData().setUsername(currentUser.getUsername());
-            session.setAttribute(Const.CURRENT_USER, response.getData());
+            RedisPoolUtil.setEx(loginToken, JsonUtil.obj2String(response.getData()), Const.RedisCacheExtime.REDIS_SESSION_EXTIME);
         }
 
         return response;
@@ -181,7 +199,6 @@ public class UserController {
     @RequestMapping(value = "get_user_info.do", method = RequestMethod.POST)
     @ResponseBody
     public ServerResponse<User> getUserInfo(HttpServletRequest httpServletRequest) {
-        //User currentUser = (User) session.getAttribute(Const.CURRENT_USER);
         String loginToken = CookieUtil.readLoginToken(httpServletRequest);
         if (StringUtils.isEmpty(loginToken)) {
             return ServerResponse.createByErrorMessage("用户未登录");

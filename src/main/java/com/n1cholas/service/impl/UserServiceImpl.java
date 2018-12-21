@@ -2,11 +2,11 @@ package com.n1cholas.service.impl;
 
 import com.n1cholas.common.Const;
 import com.n1cholas.common.ServerResponse;
-import com.n1cholas.common.TokenCache;
 import com.n1cholas.dao.UserMapper;
 import com.n1cholas.pojo.User;
 import com.n1cholas.service.IUserService;
 import com.n1cholas.util.MD5Util;
+import com.n1cholas.util.RedisPoolUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -126,7 +126,7 @@ public class UserServiceImpl implements IUserService {
         }
 
         String forgetToken = UUID.randomUUID().toString();
-        TokenCache.setKey(TokenCache.TOKEN_PREFIX + username, forgetToken);
+        RedisPoolUtil.setEx(Const.TOKEN_PREFIX + username, forgetToken, 60 * 60 * 12);
 
         return ServerResponse.createBySuccess(forgetToken);
     }
@@ -145,7 +145,7 @@ public class UserServiceImpl implements IUserService {
         }
 
         //判断token是否无效
-        String token = TokenCache.getKey(TokenCache.TOKEN_PREFIX + username);
+        String token = RedisPoolUtil.get(Const.TOKEN_PREFIX + username);
         if (StringUtils.isBlank(token)) {
             return ServerResponse.createByErrorMessage("token无效或过期");
         }
