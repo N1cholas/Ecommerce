@@ -1,6 +1,5 @@
 package com.n1cholas.controller.portal;
 
-import com.n1cholas.common.Const;
 import com.n1cholas.common.ResponseCode;
 import com.n1cholas.common.ServerResponse;
 import com.n1cholas.pojo.Shipping;
@@ -8,7 +7,7 @@ import com.n1cholas.pojo.User;
 import com.n1cholas.service.IShippingService;
 import com.n1cholas.util.CookieUtil;
 import com.n1cholas.util.JsonUtil;
-import com.n1cholas.util.RedisPoolUtil;
+import com.n1cholas.util.RedisShardedPoolUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -17,7 +16,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
 
 @Controller
 @RequestMapping("/shipping")
@@ -34,7 +32,7 @@ public class ShippingController {
             return ServerResponse.createByErrorMessage("用户未登录");
         }
 
-        String userJsonStr = RedisPoolUtil.get(loginToken);
+        String userJsonStr = RedisShardedPoolUtil.get(loginToken);
         User user = JsonUtil.string2Obj(userJsonStr, User.class);
 
         if (user == null) {
@@ -52,7 +50,7 @@ public class ShippingController {
             return ServerResponse.createByErrorMessage("用户未登录");
         }
 
-        String userJsonStr = RedisPoolUtil.get(loginToken);
+        String userJsonStr = RedisShardedPoolUtil.get(loginToken);
         User user = JsonUtil.string2Obj(userJsonStr, User.class);
 
         if (user == null) {
@@ -71,7 +69,7 @@ public class ShippingController {
             return ServerResponse.createByErrorMessage("用户未登录");
         }
 
-        String userJsonStr = RedisPoolUtil.get(loginToken);
+        String userJsonStr = RedisShardedPoolUtil.get(loginToken);
         User user = JsonUtil.string2Obj(userJsonStr, User.class);
 
         if (user == null) {
@@ -89,7 +87,7 @@ public class ShippingController {
             return ServerResponse.createByErrorMessage("用户未登录");
         }
 
-        String userJsonStr = RedisPoolUtil.get(loginToken);
+        String userJsonStr = RedisShardedPoolUtil.get(loginToken);
         User user = JsonUtil.string2Obj(userJsonStr, User.class);
 
         if (user == null) {
@@ -111,7 +109,7 @@ public class ShippingController {
             return ServerResponse.createByErrorMessage("用户未登录");
         }
 
-        String userJsonStr = RedisPoolUtil.get(loginToken);
+        String userJsonStr = RedisShardedPoolUtil.get(loginToken);
         User user = JsonUtil.string2Obj(userJsonStr, User.class);
 
         if (user == null) {

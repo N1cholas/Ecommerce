@@ -9,7 +9,7 @@
 </head>
 <body>
     <h2>test localhost deploy load balance</h2>
-    <form action="/user/login.do" method="post" enctype="multipart/form-data">
+    <form action="/user/springsession/login.do" method="post" enctype="multipart/form-data">
         <input name="username" type="text" placeholder="username">
         <input name="password" type="password" placeholder="password">
         <input type="submit">

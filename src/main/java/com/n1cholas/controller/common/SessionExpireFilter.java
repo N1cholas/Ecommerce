@@ -4,7 +4,7 @@ import com.n1cholas.common.Const;
 import com.n1cholas.pojo.User;
 import com.n1cholas.util.CookieUtil;
 import com.n1cholas.util.JsonUtil;
-import com.n1cholas.util.RedisPoolUtil;
+import com.n1cholas.util.RedisShardedPoolUtil;
 import org.apache.commons.lang3.StringUtils;
 
 import javax.servlet.*;
@@ -25,10 +25,10 @@ public class SessionExpireFilter implements Filter {
         String loginToken = CookieUtil.readLoginToken(httpServletRequest);
 
         if (StringUtils.isNotEmpty(loginToken)) {
-            String userJsonStr = RedisPoolUtil.get(loginToken);
+            String userJsonStr = RedisShardedPoolUtil.get(loginToken);
             User user = JsonUtil.string2Obj(userJsonStr, User.class);
             if (user != null) {
-                RedisPoolUtil.expire(loginToken, Const.RedisCacheExtime.REDIS_SESSION_EXTIME);
+                RedisShardedPoolUtil.expire(loginToken, Const.RedisCacheExtime.REDIS_SESSION_EXTIME);
             }
         }
 
